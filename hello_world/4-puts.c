@@ -1,6 +1,6 @@
-#includen <stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
-	puts(const char* \"Programming is like building a multilingual puzzle");
+	puts(const char* "\"Programming is like building a multilingual puzzle");
 }	
