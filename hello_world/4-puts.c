@@ -1,6 +1,11 @@
 #include <stdio.h>
-
+/**
+ * main - I want do good
+ * Return: always 0
+ */
 int main(void)
 {
-	puts(const char* "\"Programming is like building a multilingual puzzle");
-}	
+char Mystr[] = "\"Programming is like building a multilingual puzzle";
+puts(Mystr);
+return (0);
+}
