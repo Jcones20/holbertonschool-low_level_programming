@@ -8,17 +8,16 @@
  */
 int main(void)
 {
-	int l;
-	char less;
+int l;
+char light;
 
-	for (l = '0'; l <= '9'; l++)
+for (l = '0'; l <= '9'; l++)
+putchar(l);
 
-		putchar(d);
-		for (low = 'a'; low <= 'f'; low++)
+for (light = 'a'; light <= 'f'; light++)
+putchar(light);
+putchar('\n');
 
-			putchar(lightning);
-			putchar('\n');
 
-	putchar('\n');
-	return (0);
+return (0);
 }
