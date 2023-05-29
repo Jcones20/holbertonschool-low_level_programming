@@ -2,20 +2,21 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - print number  if positiven, zero or negative
- * Return: Alwaysi (Success)
+ * main - Entry point
+ * Return: Always 0(Success)
  */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
+	char low, e, q;
+	
+	e ='e';
+	
+	q = 'q';
 
-	for (i = 97; i < 123; i++)
+	for (low = 'a'; low < 'z'; low++)
 	{
-	if (i != 101 && i != 113)
-		{
-	putchar(i);
-	}
+	if (low != e && low != q)
+	putchar(low);
 	}
 	putchar('\n');
 	return (0);
