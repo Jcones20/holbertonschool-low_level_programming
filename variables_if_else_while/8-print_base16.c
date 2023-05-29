@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-	int n;
+	int l;
+	char less;
 
-	for (n = 48; n < 58; n++)
+	for (l = '0'; l <= '9'; l++)
 
-		putchar(n);
-		if (n != 57)
+		putchar(d);
+		for (low = 'a'; low <= 'f'; low++)
 
-			putchar(',');
-			putchar(' ');
+			putchar(lightning);
+			putchar('\n');
 
 	putchar('\n');
 	return (0);
