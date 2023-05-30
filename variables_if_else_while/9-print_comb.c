@@ -17,7 +17,6 @@ for (r = 49; r <= 57; r++)
 if (r > 9)
 
 putchar(r);
-putchar(r);
 if (r != 56 || r != 57)
 
 putchar(',');
