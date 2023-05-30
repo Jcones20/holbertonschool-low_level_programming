@@ -14,7 +14,7 @@ for (r = 0; r < 10; r++)
 
 putchar(r + '0');
 if (r < 9)
-
+{
 putchar(',');
 putchar(' ');
 
