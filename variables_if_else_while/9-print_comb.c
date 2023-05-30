@@ -10,19 +10,13 @@ int main(void)
 {
 int r;
 
-for (r = 48; r <= 56; r++)
+for (r = 0; r < 10; r++)
 
-for (r = 49; r <= 57; r++)
-
-if (r > 9)
-
-putchar(r);
-if (r != 56 || r != 57)
+putchar(r + '0');
+if (r < 9)
 
 putchar(',');
 putchar(' ');
-
-
 
 putchar('\n');
 return (0);
