@@ -2,7 +2,8 @@
 
 /**
  * _isdigit - check if numbers are 0 - 9
- * return: 0 or 1
+ * @c: I love the place
+ * Return: 0 or 1
  */
 
 int _isdigit(int c)
