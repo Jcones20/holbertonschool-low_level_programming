@@ -23,3 +23,4 @@ void print_rev(char *s);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 void rev_string(char *s);
+void puts2(char *str);
