@@ -2,15 +2,11 @@
 #include <stdio.h>
 
 /**
- * print_rev - Print a string in reverse
- *
- * @s: The string to print
- *
- * Return: void
+ * print_rev - check the code
+ * @s:jp
+ * Return: Always 0.
  */
-
 void print_rev(char *s)
-
 {
 	int c = 0;
 
@@ -20,9 +16,9 @@ void print_rev(char *s)
 	}
 
 	for (c -= 1; c >= 0; c--)
-	{	     
-
-	_putchar(*s[c]);
-	_putchar('\n');
 }
+
+	_putchar(s[c]);
+	}
+	_putchar('\n');
 }
