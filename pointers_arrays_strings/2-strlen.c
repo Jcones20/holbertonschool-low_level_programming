@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strlen - returns the length of a string
+ * Calculates the length of a null-terminated string.
  *
- * @s: string
+ * @param str The null-terminated string.
+ * @return The length of the string as an integer.
  */
 int _strlen(char *s)
 {
