@@ -4,7 +4,7 @@
  * @dest: input value
  * @src: input value
  *
- * Return: void
+ * Return: SUCCESS
  */
 char *_strcat(char *dest, char *src)
 {
@@ -25,7 +25,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	dest[j] = '\0';
+	(dest[i] = '\0');
 	return (dest);
 
 }
