@@ -6,7 +6,7 @@
  * print_strings - Prints strings, followed by a new line.
  * @separator: The string to be printed between strings.
  * @n: The number of strings to be printed.
- *
+ * @str - equals strings
  * Description: If seprator is NULL, it is not printed.
  * IF one of the strings if NULL, (nil) is printed instead.
  **/
