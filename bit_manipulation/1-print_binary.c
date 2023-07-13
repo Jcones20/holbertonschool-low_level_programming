@@ -7,7 +7,7 @@
  *
  * Return: the converted number
  */
-unsigned int binary_to_uint(const char *b)
+void print_binary(unsigned long int n)
 {
 	int i;
 	unsigned int dec_val = 0;
@@ -22,3 +22,4 @@ unsigned int binary_to_uint(const char *b)
 	}
 	return (dec_val);
 }
+
