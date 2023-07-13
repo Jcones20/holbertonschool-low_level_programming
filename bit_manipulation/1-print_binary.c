@@ -2,10 +2,8 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts a binary numbers to unsigned int
- * @b: string containing the binary number
- *
- * Return: the converted number
+ * binary_binary - Prints the binary representation of a number.
+ * @n: The number to be printed in binary.
  */
 void print_binary(unsigned long int n)
 {
