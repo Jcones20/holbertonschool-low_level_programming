@@ -7,7 +7,7 @@
  *
  * Return: the coverted number
  */
-unsigned in binary_to_uint(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	int i;
 	unsigned int dec_cal = 0;
