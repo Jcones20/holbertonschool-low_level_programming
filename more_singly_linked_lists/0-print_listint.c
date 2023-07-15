@@ -1,9 +1,9 @@
 #ifndef PRINT_H
 #define PRINT_H
-#include "lists.h"
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_listint - prints all the elements of a linked list
