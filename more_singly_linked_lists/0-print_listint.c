@@ -1,6 +1,6 @@
-#include "lists.h"
 #ifndef PRINT_H
 #define PRINT_H
+#include "main.h"
 
 /**
  * print_listint - prints all the elements of a linked list
