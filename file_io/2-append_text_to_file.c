@@ -5,7 +5,7 @@
 /**
  * append_text_to_file - appends text at the end of a file
  * @filename: filename.
- * @text_context: added context.
+ * @text_content: added context.
  *
  * Return: 1 if the file exists. -1 if the fails does not exist
  * or it fails.
