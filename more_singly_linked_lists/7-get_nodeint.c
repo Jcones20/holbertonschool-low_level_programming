@@ -5,6 +5,7 @@
 
 /**
  * get_nodeint_at_index - returns the node at a certain index in a linked list
+ * Decription: returns node
  * @head: first node in the linked list
  * @index: index of the node we'er looking for, or NULL
  */
