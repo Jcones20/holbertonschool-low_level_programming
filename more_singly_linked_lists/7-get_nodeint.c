@@ -8,6 +8,7 @@
  * Decription: returns node
  * @head: first node in the linked list
  * @index: index of the node we'er looking for, or NULL
+ * Return: retuns the node 
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
