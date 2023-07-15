@@ -14,7 +14,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 
-	new = ,alloc(sizeof(listint_t));
+	new = alloc(sizeof(listint_t));
 	if (!new)
 		return (NULL);
 
