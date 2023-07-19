@@ -1,5 +1,7 @@
+#ifndef LISTS_H
+#define LISTS_H
 #include <stdlib.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * dlistint_len - Counts the numbers of elements in doubly linked list
@@ -19,3 +21,4 @@ size_t dlist_len(const dlistint_t *h)
 
 	return (length);
 }
+#endif
