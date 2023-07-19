@@ -9,7 +9,7 @@
  *
  * Return: Number of elements in doubly linked list
  */
-size_t dlist_len(const dlistint_t *h)
+size_t dlistint_len(const dlistint_t *h)
 {
 	int lenght = 0;
 
