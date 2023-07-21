@@ -27,7 +27,7 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	else if (length == idx)
 		return (add_dnodeint_end(h, n));
 
-	current = *h;
+	coup = *h;
 	while (coup != NULL)
 	{
 		if (iter_times == idx)
